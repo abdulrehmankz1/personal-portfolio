@@ -10,56 +10,63 @@ body {
   background-color: $bg-color;
   font-family: "Inter", sans-serif;
 
+  h1 {
+    font-size: 78px;
+    letter-spacing: -0.2px;
+    line-height: 90px;
+    font-weight: 300;
+  }
+
   .left-sidebar {
     border: 1px solid #565656;
     color: aliceblue;
-  
+
     .info {
       align-items: center;
       margin: 0 auto;
-  
+
       .title {
         font-size: 20px;
         font-weight: 700;
       }
-  
+
       .sub-title {
         font-size: 14px;
       }
     }
-  
+
     .info-icon {
       border: 1px solid $primary-color;
       height: 50px !important;
       width: 50px !important;
-      transition: border 0.3s; 
+      transition: border 0.3s;
       cursor: pointer;
 
     }
-  
+
     .info-icon:hover {
       border: 2px solid $secondary-color;
     }
-  
+
     .info-icon a {
       text-decoration: none;
       color: $primary-color;
-      
+
     }
-  
+
     .info-icon:hover a {
       color: $secondary-color;
       cursor: pointer;
     }
-  
+
     .info-icon i {
-      transition: color 0.3s; 
+      transition: color 0.3s;
     }
-  
+
     .info-icon:hover i {
-      color: $secondary-color; 
+      color: $secondary-color;
     }
-  
+
     .hire-btn {
       padding: 11px 58px 10px 58px;
       background-color: $secondary-color;
@@ -68,45 +75,71 @@ body {
       border: 2px solid transparent; // Use transparent border by default
       transition: background-color 0.3s, color 0.3s, border 0.3s; // Smooth transitions
     }
-  
+
     .hire-btn:hover {
       background-color: transparent;
       color: $secondary-color;
       border: 2px solid $secondary-color;
     }
   }
+  .custom-container{
+
+.hero_content{
+  color: $secondary-color;
+}
+
+    .section_badge {
+      padding: 9px 20px;
+      border: 1px solid #565656;
+      font-size: 12px;
+      font-weight: normal;
+      margin-bottom: 53px;
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+ 
+
   @media (max-width: 576px) {
     body {
       font-size: 18px;
     }
-  
+
   }
-  
+
   // Media query for medium screens (md)
   @media (min-width: 768px) {
     body {
       font-size: 20px;
     }
-  
+
 
   }
-  
+
   // Media query for large screens (lg)
   @media (min-width: 992px) {
     body {
       font-size: 22px;
     }
-  
+
   }
-  
+
   // Media query for extra-large screens (xl)
   @media (min-width: 1200px) {
     body {
       font-size: 24px;
     }
-  
+
     .left-sidebar {
-      position: fixed;}
+      position: fixed;
+    }
+
+    .custom-container {
+      width: 65%;
+      margin-left: auto !important;
+      margin-top: 5px;
+    }
   }
-  
+
 }
