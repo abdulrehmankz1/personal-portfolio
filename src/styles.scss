@@ -14,49 +14,67 @@ body {
     border: 1px solid #565656;
     color: aliceblue;
     position: fixed;
-
+  
     .info {
       align-items: center;
       margin: 0 auto;
-
+  
       .title {
         font-size: 20px;
         font-weight: 700;
       }
-
+  
       .sub-title {
         font-size: 14px;
       }
-
-
     }
-
+  
     .info-icon {
-      border: 1px solid #999999;
+      border: 1px solid $primary-color;
       height: 50px !important;
       width: 50px !important;
-    }
+      transition: border 0.3s; 
+      cursor: pointer;
 
+    }
+  
     .info-icon:hover {
-      border: 2px solid #28e98c;
+      border: 2px solid $secondary-color;
     }
-
+  
     .info-icon a {
       text-decoration: none;
       color: $primary-color;
+      
     }
-
+  
+    .info-icon:hover a {
+      color: $secondary-color;
+      cursor: pointer;
+    }
+  
+    .info-icon i {
+      transition: color 0.3s; 
+    }
+  
+    .info-icon:hover i {
+      color: $secondary-color; 
+    }
+  
     .hire-btn {
       padding: 11px 58px 10px 58px;
       background-color: $secondary-color;
       color: #000000;
       margin-top: 30px;
+      border: 2px solid transparent; // Use transparent border by default
+      transition: background-color 0.3s, color 0.3s, border 0.3s; // Smooth transitions
     }
-
+  
     .hire-btn:hover {
       background-color: transparent;
       color: $secondary-color;
       border: 2px solid $secondary-color;
     }
   }
+  
 }
