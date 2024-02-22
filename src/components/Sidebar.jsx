@@ -16,33 +16,38 @@ function Sidebar() {
           <div className='my-4 d-flex justify-content-center align-items-center'>
             <img src="./assets/images/me.jpeg" height={200} width={200} alt="me" />
           </div>
-          <div className='text-center'>
+          <div className='text-center mb-4'>
             <p className='mb-0'>khanzadaabdulrehman1@gmail.com</p>
             <p>Karachi, Pakistan</p>
           </div>
           <div className='d-flex justify-content-center align-items-center'>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="#" className='text-light'>
+              <a href="#" >
                 <i class="fa-brands fa-twitter fa-md"></i>
               </a>
             </div>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="#" className='text-light'>
+              <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/" >
                 <i className="fa-brands fa-linkedin fa-md"></i>
               </a>
             </div>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="#" className='text-light'>
-                <i className="fa-brands fa-instagram fa-md"></i>
+              <a href="https://www.upwork.com/freelancers/~01ac9dfd5b35dc7b35?viewMode=1" >
+                <i class="fa-brands fa-upwork fa-md"></i>
               </a>
             </div>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="#" className='text-light'>
+              <a href="https://github.com/abdulrehmankz1" >
                 <i class="fa-brands fa-github fa-md"></i>
               </a>
             </div>
           </div>
-
+          <div className='d-flex justify-content-center align-items-center'>
+            <a href="mailto:khanzadaabdulrehman1@gmail.com" className='text-decoration-none hire-btn rounded-5'>
+              <i class="fa-regular fa-envelope"></i>
+              &nbsp;HIRE ME!
+            </a>
+          </div>
         </div>
       </div>
     </div>
