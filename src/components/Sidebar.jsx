@@ -22,7 +22,7 @@ function Sidebar() {
           </div>
           <div className='d-flex justify-content-center align-items-center'>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="#">
+              <a href="https://twitter.com/AbdulRehmaKz">
                 <i className="fa-brands fa-twitter fa-md"></i>
               </a>
             </div>
