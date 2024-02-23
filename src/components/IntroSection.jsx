@@ -12,6 +12,14 @@ function IntroSection() {
           Abdul Rehman
         </span>, FrontEnd Developer
       </h1>
+      <p className='sub_heading'>
+        I design and code beautifully simple things and i love what i do. Just simple like that!
+      </p>
+      <a href="#" className='arrow_down ms-auto'>
+        <img src="./assets/images/round-text.png" alt="" />
+        <i class="fa-solid fa-arrow-down-long fa-2x"></i>
+      </a>
+
     </div>
   )
 }
