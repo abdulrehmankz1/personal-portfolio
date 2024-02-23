@@ -20,6 +20,9 @@ function Sidebar() {
             <p className='mb-0'>khanzadaabdulrehman1@gmail.com</p>
             <p>Karachi, Pakistan</p>
           </div>
+          <div className='my-4 text-center fw-lighter small'>
+            © 2024 Abdul Rehman. All Rights Reserved
+          </div>
           <div className='d-flex justify-content-center align-items-center'>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
               <a href="https://twitter.com/AbdulRehmaKz">
@@ -42,7 +45,7 @@ function Sidebar() {
               </a>
             </div>
           </div>
-          <div className='d-flex justify-content-center align-items-center'>
+          <div className='d-flex justify-content-center align-items-center w-full'>
             <a href="mailto:khanzadaabdulrehman1@gmail.com" className='text-decoration-none hire-btn rounded-5'>
               <i class="fa-regular fa-envelope"></i>
               &nbsp;HIRE ME!
