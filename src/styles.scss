@@ -17,6 +17,14 @@ body {
     font-weight: 300;
     margin-bottom: 43px;
   }
+  h2 {
+    font-size: 48px;
+    letter-spacing: -0.2px;
+    line-height: 60px;
+    font-weight: 300;
+    margin-bottom: 33px;
+   
+  }
 
   .left-sidebar {
     border: 1px solid #565656;
@@ -92,7 +100,6 @@ body {
     .sub_heading {
       opacity: 1;
       transform: translate(0px, 0px);
-      max-width: 480px;
       margin-bottom: 31px;
       color: #999999;
       line-height: 1.7;
@@ -143,8 +150,59 @@ body {
         transform: rotate(360deg);
       }
     }
+
+ 
   }
 
+  .section_space{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .resume_section {
+    .timeline_card {
+      position: relative;
+      width: 80%;
+      height: 200px;
+      border-left: 2px solid #565656;
+  
+      &:hover {
+        .dots {
+          background-color: #28e98c;
+        }
+        .date{
+          color: #28e98c;
+        }
+      }
+    }
+  
+    .dots {
+      width: 15px;
+      height: 15px;
+      background: #565656;
+      border-radius: 7px;
+      position: absolute;
+      left: -8px;
+      top: 3px;
+      transform: translateY(-50%);
+    }
+    .date{
+      display: block;
+      margin-bottom: 12px;
+      transition: .3s;
+      color: #999999;
+      font-size: 18px;
+    }
+    .title{
+font-size: 24px;
+color: #ffff;
+    }
+    .sub_title{
+      font-size: 12px;
+      color: #999999;
+    }
+  }
+  
 
 
   .section_badge {

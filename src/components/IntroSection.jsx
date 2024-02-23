@@ -2,7 +2,7 @@ import React from 'react'
 
 function IntroSection() {
   return (
-    <div className='custom-container'>
+    <div className='custom-container mb-5 mt-xl-0 mt-5'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-house"></i>
         &nbsp; INTRODUCE
@@ -12,7 +12,7 @@ function IntroSection() {
           Abdul Rehman
         </span>, FrontEnd Developer
       </h1>
-      <p className='sub_heading'>
+      <p className='sub_heading' style={{ maxWidth: '480px' }}>
         I design and code beautifully simple things and i love what i do. Just simple like that!
       </p>
       <a href="#" className='arrow_down ms-auto'>
