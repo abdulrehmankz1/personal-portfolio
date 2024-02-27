@@ -41,8 +41,12 @@ body {
       }
 
       .sub-title {
-        font-size: 14px;
+        font-size: 13px;
       }
+    }
+
+    .rights{
+      font-size: 12px;
     }
 
     .info-icon {
@@ -240,7 +244,29 @@ body {
     }
   }
 
-
+.skills_section{
+  .skills{
+    // .skill{
+    //   margin-bottom: 50px;
+    // }
+    .skill_inner{
+      border: 2px solid #565656;
+      border-radius: 85px;
+      padding: 54px 30px 20px 30px;
+      margin-bottom: 20px;
+      transition: .3s;
+      &:hover{
+        border: 2px solid $secondary-color;
+      }
+    }
+    h1 {
+      font-size: 30px;
+      color: $secondary-color;
+      font-weight: 300;
+      margin: 0;
+  }
+  }
+}
 
   .section_badge {
     padding: 9px 20px;
