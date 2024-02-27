@@ -45,7 +45,7 @@ body {
       }
     }
 
-    .rights{
+    .rights {
       font-size: 12px;
     }
 
@@ -87,6 +87,8 @@ body {
       margin-top: 30px;
       border: 2px solid transparent; // Use transparent border by default
       transition: background-color 0.3s, color 0.3s, border 0.3s; // Smooth transitions
+      width: 90%;
+      text-align: center;
     }
 
     .hire-btn:hover {
@@ -238,38 +240,43 @@ body {
         color: #999999;
         margin-bottom: 30px;
       }
-      i{
+
+      i {
         color: $secondary-color;
       }
     }
   }
 
-.skills_section{
-  .skills{
-    .skill{
-      margin-bottom: 50px;
-    }
-    .skill_inner{
-      border: 2px solid #565656;
-      border-radius: 85px;
-      padding: 54px 30px 20px 30px;
-      margin-bottom: 20px;
-      transition: .3s;
-      &:hover{
-        border: 2px solid $secondary-color;
+  .skills_section {
+    .skills {
+      .skill {
+        margin-bottom: 50px;
+      }
+
+      .skill_inner {
+        border: 2px solid #565656;
+        border-radius: 85px;
+        padding: 54px 30px 20px 30px;
+        margin-bottom: 20px;
+        transition: .3s;
+
+        &:hover {
+          border: 2px solid $secondary-color;
+        }
+      }
+
+      h1 {
+        font-size: 30px;
+        color: $secondary-color;
+        font-weight: 300;
+        margin: 0;
       }
     }
-    h1 {
-      font-size: 30px;
-      color: $secondary-color;
-      font-weight: 300;
-      margin: 0;
   }
-  }
-}
-// .portfolio_Section{
 
-// }
+  // .portfolio_Section{
+
+  // }
 
   .section_badge {
     padding: 9px 20px;
