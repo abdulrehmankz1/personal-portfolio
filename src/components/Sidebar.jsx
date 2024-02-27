@@ -17,6 +17,7 @@ function Sidebar() {
             <img src="./assets/images/me.jpeg" height={200} width={200} alt="me" />
           </div>
           <div className='text-center mb-4'>
+            <p className='mb-0'>+92 3161 612223</p>
             <p className='mb-0'>khanzadaabdulrehman1@gmail.com</p>
             <p>Karachi, Pakistan</p>
           </div>
