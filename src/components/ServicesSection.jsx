@@ -2,7 +2,7 @@ import React from 'react'
 
 function ServicesSection() {
   return (
-    <div className='custom-container my-5 section_space resume_section services_section'>
+    <div className='custom-container my-5 section_space services_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-briefcase"></i>
         &nbsp; Services
