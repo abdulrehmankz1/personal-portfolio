@@ -19,7 +19,6 @@ function IntroSection() {
         <img src="./assets/images/round-text.png" alt="" />
         <i class="fa-solid fa-arrow-down-long fa-2x"></i>
       </a>
-
     </div>
   )
 }

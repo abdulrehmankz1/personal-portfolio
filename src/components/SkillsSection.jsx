@@ -124,13 +124,11 @@ function SkillsSection() {
             </div>
           </div>
           <div className='col-md-3'>
-            <div className='skill'>
-              <div className='skill_inner'>
-                <img src="./assets/images/figma.png" alt="Figma" />
-                <h1 className="percent">50%</h1>
-              </div>
-              <p className="name text-light">Figma</p>
+            <div className='skill_inner'>
+              <img src="./assets/images/figma.png" alt="Figma" />
+              <h1 className="percent">50%</h1>
             </div>
+            <p className="name text-light">Figma</p>
           </div>
         </div>
       </div>

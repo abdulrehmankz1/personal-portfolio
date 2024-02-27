@@ -1,6 +1,7 @@
 import './App.css';
 import AboutSection from './components/AboutSection';
 import IntroSection from './components/IntroSection';
+import PortfolioSection from './components/PortfolioSection';
 import ResumeSection from './components/ResumeSection';
 import ServicesSection from './components/ServicesSection';
 import Sidebar from './components/Sidebar';
@@ -15,6 +16,7 @@ function App() {
       <ResumeSection />
       <ServicesSection />
       <SkillsSection />
+      <PortfolioSection />
     </div>
   );
 }

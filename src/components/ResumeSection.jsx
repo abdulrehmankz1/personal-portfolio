@@ -28,7 +28,6 @@ function ResumeSection() {
               Envato Market
             </p>
           </div>
-
         </div>
         <div className='timeline_card'>
           <div className='dots'></div>
@@ -56,7 +55,6 @@ function ResumeSection() {
               Envato Market
             </p>
           </div>
-
         </div>
       </div>
     </div>
