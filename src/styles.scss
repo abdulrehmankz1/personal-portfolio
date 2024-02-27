@@ -208,6 +208,38 @@ body {
     }
   }
 
+  .services_section {
+    .services_card {
+      border: 1px solid #565656;
+      border-radius: 20px;
+      transition: .3s;
+      position: relative;
+      padding: 44px 48px 41px 48px;
+      margin-bottom: 10px;
+      width: 85%;
+
+      &:hover {
+        border: 1px solid #28e98c;
+
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 8px;
+      }
+
+      .sub_title {
+        font-size: 14px;
+        color: #999999;
+        margin-bottom: 30px;
+      }
+      i{
+        color: $secondary-color;
+      }
+    }
+  }
+
 
 
   .section_badge {
