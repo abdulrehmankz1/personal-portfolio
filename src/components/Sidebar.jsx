@@ -5,23 +5,31 @@ function Sidebar() {
     <div className='container-fluid'>
       <div className="row">
         <div className="col-xl-3 col-12 rounded-4 left-sidebar p-4">
-          <div className='d-flex justify-content-between align-center info'>
-            <div >
+          {/* <div className='d-flex justify-content-between align-center info'>
+            <div>
               <div className='title mb-0'>
                 Abdul Rehman
               </div>
             </div>
             <div className='sub-title'>FrontEnd developer</div>
+          </div> */}
+          <div className='info text-center'>
+            <div>
+              <div className='title mb-0'>
+                Abdul Rehman
+              </div>
+            </div>
+            <div className='sub-title'>(Front-End developer)</div>
           </div>
           <div className='my-4 d-flex justify-content-center align-items-center'>
             <img src="./assets/images/me.jpeg" height={200} width={200} alt="me" />
           </div>
-          <div className='text-center mb-4'>
+          <div className='text-center mb-4 small'>
             <p className='mb-0'>+92 3161 612223</p>
             <p className='mb-0'>khanzadaabdulrehman1@gmail.com</p>
             <p>Karachi, Pakistan</p>
           </div>
-          <div className='my-4 text-center fw-lighter small'>
+          <div className='my-4 text-center fw-lighter rights'>
             © 2024 Abdul Rehman. All Rights Reserved
           </div>
           <div className='d-flex justify-content-center align-items-center'>
