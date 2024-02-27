@@ -26,11 +26,6 @@ function Sidebar() {
           </div>
           <div className='d-flex justify-content-center align-items-center'>
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
-              <a href="https://twitter.com/AbdulRehmaKz">
-                <i className="fa-brands fa-twitter fa-md"></i>
-              </a>
-            </div>
-            <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
               <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
                 <i className="fa-brands fa-linkedin fa-md"></i>
               </a>
@@ -43,6 +38,11 @@ function Sidebar() {
             <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
               <a href="https://github.com/abdulrehmankz1">
                 <i className="fa-brands fa-github fa-md"></i>
+              </a>
+            </div>
+            <div className='info-icon d-flex justify-content-center align-items-center rounded-5 me-2'>
+              <a href="https://twitter.com/AbdulRehmaKz">
+                <i className="fa-brands fa-twitter fa-md"></i>
               </a>
             </div>
           </div>

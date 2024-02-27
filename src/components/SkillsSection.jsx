@@ -4,7 +4,7 @@ function SkillsSection() {
   return (
     <div className='custom-container my-5 section_space'>
       <span class="badge rounded-pill section_badge">
-        <i class="fa-solid fa-briefcase"></i>
+        <i class="fa-solid fa-shapes"></i>
         &nbsp; MY SKILLS
       </span>
       <div className='w-75'>
