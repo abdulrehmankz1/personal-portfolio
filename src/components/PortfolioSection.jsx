@@ -12,9 +12,7 @@ function PortfolioSection() {
           Featured <span className='hero_content'>
             Projects
           </span>
-
         </h2>
-
       </div>
       <div className="row">
         <div className="col-11 ">
