@@ -274,9 +274,66 @@ body {
     }
   }
 
-  // .portfolio_Section{
+  .portfolio_Section {
+    .portfolio_item {
+      a {
+        text-decoration: none;
+      }
 
-  // }
+      h2 {
+        font-size: 24px;
+      }
+
+      .portfolio_item_inner {
+        background-image: url(../public/assets/images/eduport-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 20px;
+
+      }
+
+      &:hover {
+        a {
+          text-decoration: underline;
+        }
+
+        .portfolio_categories {
+          a {
+            background-color: #1f1f1f;
+            color: #ffff;
+          }
+        }
+      }
+
+      .portfolio_categories {
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        list-style: none;
+
+        li {
+
+          a {
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+            background: #28e98c;
+            color: #000;
+            padding: 7px 20px;
+            border-radius: 19px;
+            transition: .3s;
+            margin-right: 10px;
+          }
+        }
+
+
+      }
+    }
+
+  }
 
   .section_badge {
     padding: 9px 20px;
