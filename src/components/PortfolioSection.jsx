@@ -24,18 +24,18 @@ function PortfolioSection() {
                 <a href="">Figma</a>
               </li>
               <li>
-                <a href="">Framer</a>
+                <a href="">HTML</a>
               </li>
               <li>
-                <a href="">WordPress</a>
+                <a href="">CSS</a>
+              </li>
+              <li>
+                <a href="">Bootstrap</a>
               </li>
             </ul>
           </div>
           <h2><a href="" className='text-light'>Bureau - Architecture Studio Website</a></h2>
         </div>
-        {/* <div className="your-container img-bg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ab aliquid odit incidunt odio doloribus nostrum vitae repellendus quas cumque harum, maiores libero excepturi sed alias rerum, nam voluptatum iure!
-        </div> */}
       </div>
     </div>
   )

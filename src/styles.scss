@@ -282,6 +282,7 @@ body {
 
       h2 {
         font-size: 24px;
+        margin-bottom: 0;
       }
 
       .portfolio_item_inner {
@@ -292,7 +293,7 @@ body {
         border-radius: 30px;
         position: relative;
         margin-bottom: 20px;
-
+cursor: pointer;
       }
 
       &:hover {
@@ -302,8 +303,10 @@ body {
 
         .portfolio_categories {
           a {
-            background-color: #1f1f1f;
-            color: #ffff;
+            // background-color: #1f1f1f;
+            // color: #ffff;
+            background: #28e98c;
+            color: #000;
           }
         }
       }
@@ -320,8 +323,10 @@ body {
             text-decoration: none;
             display: block;
             font-size: 14px;
-            background: #28e98c;
-            color: #000;
+            // background: #28e98c;
+            // color: #000;
+            background-color: #1f1f1f;
+            color: #ffff;
             padding: 7px 20px;
             border-radius: 19px;
             transition: .3s;
