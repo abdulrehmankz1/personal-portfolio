@@ -36,12 +36,12 @@ body {
       margin: 0 auto;
 
       .title {
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 700;
       }
 
       .sub-title {
-        font-size: 13px;
+        font-size: 16px;
       }
     }
 
@@ -273,7 +273,6 @@ body {
       }
     }
   }
-
   .portfolio_Section {
     .portfolio_item {
       a {
@@ -293,7 +292,8 @@ body {
         border-radius: 30px;
         position: relative;
         margin-bottom: 20px;
-cursor: pointer;
+        cursor: pointer;
+        transition: transform 0.3s; // Added transition for smooth hover effect
       }
 
       &:hover {
@@ -301,10 +301,12 @@ cursor: pointer;
           text-decoration: underline;
         }
 
+        .portfolio_item_inner {
+          transform: scale(1.05); // Increase the scale on hover
+        }
+
         .portfolio_categories {
           a {
-            // background-color: #1f1f1f;
-            // color: #ffff;
             background: #28e98c;
             color: #000;
           }
@@ -318,13 +320,10 @@ cursor: pointer;
         list-style: none;
 
         li {
-
           a {
             text-decoration: none;
             display: block;
             font-size: 14px;
-            // background: #28e98c;
-            // color: #000;
             background-color: #1f1f1f;
             color: #ffff;
             padding: 7px 20px;
@@ -333,12 +332,58 @@ cursor: pointer;
             margin-right: 10px;
           }
         }
-
-
       }
     }
 
+    .carousel {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      animation: fadeIn 0.5s forwards;
+      z-index: 100;
+    }
+  
+    .close-button {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+      color: #fff;
+      font-size: 35px;
+      cursor: pointer;
+      transition: color 0.3s;
+      left: 90%;
+      width: 50px;
+      height: 50px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  
+      &:hover {
+        color: #28e98c;
+      }
+    }
+  
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); 
+}
   }
+
 
   .section_badge {
     padding: 9px 20px;
