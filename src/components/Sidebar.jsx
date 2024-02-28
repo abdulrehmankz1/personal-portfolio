@@ -22,7 +22,7 @@ function Sidebar() {
             <div className='sub-title'>(Front-End developer)</div>
           </div>
           <div className='my-4 d-flex justify-content-center align-items-center'>
-            <img src="./assets/images/me.jpeg" height={200} width={200} alt="me" />
+            <img src="./assets/images/me.jpeg" height={230} width={230} className='rounded-4 mb-1' alt="me" />
           </div>
           <div className='text-center mb-4 small'>
             <p className='mb-0'>+92 3161 612223</p>
@@ -54,7 +54,7 @@ function Sidebar() {
               </a>
             </div>
           </div>
-          <div className='d-flex justify-content-center align-items-center w-full'>
+          <div className='d-flex justify-content-center align-items-center w-full mb-1'>
             <a href="mailto:khanzadaabdulrehman1@gmail.com" className='text-decoration-none hire-btn rounded-5'>
               <i class="fa-regular fa-envelope"></i>
               &nbsp;HIRE ME!
