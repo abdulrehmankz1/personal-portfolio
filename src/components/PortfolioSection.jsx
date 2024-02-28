@@ -34,7 +34,7 @@ function PortfolioSection() {
               </li>
             </ul>
           </div>
-          <h2><a href="" className='text-light'>Bureau - Architecture Studio Website</a></h2>
+          <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
         </div>
       </div>
     </div>
