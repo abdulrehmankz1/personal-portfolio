@@ -2,7 +2,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className='container-fluid'>
+    <div className='mx-3'>
       <div className="row">
         <div className="col-xl-3 col-12 rounded-4 left-sidebar p-4">
           {/* <div className='d-flex justify-content-between align-center info'>
