@@ -202,8 +202,8 @@ body {
           }
 
           .timeline-content {
-            padding-left: 75px;
-            padding-bottom: 68px;
+            padding-left: 65px;
+            padding-bottom: 50px;
             margin-top: -10px;
 
             h2 {
@@ -223,7 +223,7 @@ body {
 
             .date {
               display: block;
-              margin-bottom: 28px;
+              margin-bottom: 15px;
               transition: .3s;
               color: #999999;
               font-size: 16px;
@@ -306,6 +306,7 @@ body {
 
   .portfolio_Section {
     .portfolio_item {
+      margin-bottom: 62px;
       a {
         text-decoration: none;
       }
