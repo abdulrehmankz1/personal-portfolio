@@ -14,48 +14,30 @@ function ResumeSection() {
           </span>
         </h2>
       </div>
-      <div>
-        <div className='timeline_card'>
-          <div className='dots'></div>
-          <div className='ms-5 ps-3'>
-            <span className='date '>
-              2020 - Present
-            </span>
-            <h2 className='title mb-0'>
-              Front-End Developer
-            </h2>
-            <p className='sub_title '>
-              Envato Market
-            </p>
-          </div>
-        </div>
-        <div className='timeline_card'>
-          <div className='dots'></div>
-          <div className='ms-5 ps-3'>
-            <span className='date '>
-              2020 - Present
-            </span>
-            <h2 className='title mb-0'>
-              Front-End Developer
-            </h2>
-            <p className='sub_title '>
-              Envato Market
-            </p>
-          </div>
-        </div>  <div className='timeline_card'>
-          <div className='dots'></div>
-          <div className='ms-5 ps-3'>
-            <span className='date '>
-              2020 - Present
-            </span>
-            <h2 className='title mb-0'>
-              Front-End Developer
-            </h2>
-            <p className='sub_title '>
-              Envato Market
-            </p>
-          </div>
-        </div>
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="timeline-content">
+              <span class="date">2020 - Present</span>
+              <h2>Front-End Developer</h2>
+              <p>Envato Market</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-content">
+              <span class="date">2020 - Present</span>
+              <h2>Front-End Developer</h2>
+              <p>Envato Market</p>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-content pb-2">
+              <span class="date">2020 - Present</span>
+              <h2>Front-End Developer</h2>
+              <p>Envato Market</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   )

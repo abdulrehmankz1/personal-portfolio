@@ -4,8 +4,6 @@ $bg-color: #000000;
 $primary-color: #ffff;
 $secondary-color: #28e98c;
 
-
-
 body {
   background-color: $bg-color;
   font-family: "Inter", sans-serif;
@@ -167,50 +165,81 @@ body {
   }
 
   .resume_section {
-    .timeline_card {
-      position: relative;
-      width: 80%;
-      height: 200px;
-      border-left: 1px solid #565656;
+    .timeline {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
 
-      &:hover {
-        .dots {
-          background-color: #28e98c;
-        }
+        li {
+          position: relative;
+          display: flex;
+          align-items: center;
 
-        .date {
-          color: #28e98c;
+          &:before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            background-color: #565656;
+            border-radius: 50%;
+            position: absolute;
+            left: -8px;
+            top: 1%;
+            transform: translateY(-50%);
+            z-index: 100;
+          }
+
+          &:after {
+            content: '';
+            width: 1px;
+            height: 100%;
+            background-color: #565656;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translateX(-50%);
+          }
+
+          .timeline-content {
+            padding-left: 75px;
+            padding-bottom: 68px;
+            margin-top: -10px;
+
+            h2 {
+              margin-top: 0;
+              font-size: 24px;
+              margin-bottom: 0;
+              color: white;
+              margin-bottom: 5px;
+              line-height: normal;
+            }
+
+            p {
+              font-size: 13px;
+              color: #999999;
+              margin-bottom: 18px;
+            }
+
+            .date {
+              display: block;
+              margin-bottom: 28px;
+              transition: .3s;
+              color: #999999;
+              font-size: 16px;
+            }
+          }
+
+          &:hover {
+            &:before {
+              background-color: #28e98c;
+            }
+
+            .date {
+              color: #28e98c;
+            }
+          }
         }
       }
-    }
-
-    .dots {
-      width: 15px;
-      height: 15px;
-      background: #565656;
-      border-radius: 7px;
-      position: absolute;
-      left: -8px;
-      top: 6px;
-      transform: translateY(-50%);
-    }
-
-    .date {
-      display: block;
-      margin-bottom: 12px;
-      transition: .3s;
-      color: #999999;
-      font-size: 18px;
-    }
-
-    .title {
-      font-size: 24px;
-      color: #ffff;
-    }
-
-    .sub_title {
-      font-size: 12px;
-      color: #999999;
     }
   }
 
@@ -273,6 +302,7 @@ body {
       }
     }
   }
+
   .portfolio_Section {
     .portfolio_item {
       a {
@@ -349,7 +379,7 @@ body {
       animation: fadeIn 0.5s forwards;
       z-index: 100;
     }
-  
+
     .close-button {
       position: absolute;
       top: 40px;
@@ -364,24 +394,26 @@ body {
       align-items: center;
       display: flex;
       justify-content: center;
-  
+
       &:hover {
         color: #28e98c;
       }
     }
-  
+
     @keyframes fadeIn {
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
     }
+
     .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1); 
-}
+    .carousel-control-next-icon {
+      filter: invert(1);
+    }
   }
 
 
