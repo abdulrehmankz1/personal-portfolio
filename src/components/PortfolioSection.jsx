@@ -24,21 +24,24 @@ function PortfolioSection() {
       </div>
       <div className="row">
         <div className="portfolio_item col-11" onClick={handlePortfolioItemClick}>
-          <div className="portfolio_item_inner ">
-            <ul className="portfolio_categories">
-              <li>
-                <a href="">Figma</a>
-              </li>
-              <li>
-                <a href="">HTML</a>
-              </li>
-              <li>
-                <a href="">CSS</a>
-              </li>
-              <li>
-                <a href="">Bootstrap</a>
-              </li>
-            </ul>
+          <div className="portfolio_item_inner">
+            <div className="eduport">
+              <ul className="portfolio_categories">
+                <li>
+                  <a href="">Figma</a>
+                </li>
+                <li>
+                  <a href="">HTML</a>
+                </li>
+                <li>
+                  <a href="">CSS</a>
+                </li>
+                <li>
+                  <a href="">Bootstrap</a>
+                </li>
+              </ul>
+            </div>
+
           </div>
           <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
         </div>
@@ -73,21 +76,24 @@ function PortfolioSection() {
       <div className="row d-flex justify-content-around align-items-center">
         <div className='col-6'>
           <div className="portfolio_item col-11" onClick={handlePortfolioItemClick}>
-            <div className="portfolio_item_inner ">
-              <ul className="portfolio_categories">
-                <li>
-                  <a href="">Figma</a>
-                </li>
-                <li>
-                  <a href="">HTML</a>
-                </li>
-                <li>
-                  <a href="">CSS</a>
-                </li>
-                <li>
-                  <a href="">Bootstrap</a>
-                </li>
-              </ul>
+            <div className="portfolio_item_inner">
+              <div className="netflix">
+                <ul className="portfolio_categories">
+                  <li>
+                    <a href="">Figma</a>
+                  </li>
+                  <li>
+                    <a href="">HTML</a>
+                  </li>
+                  <li>
+                    <a href="">CSS</a>
+                  </li>
+                  <li>
+                    <a href="">Bootstrap</a>
+                  </li>
+                </ul>
+              </div>
+
             </div>
             <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
           </div>
@@ -120,23 +126,17 @@ function PortfolioSection() {
         </div>
         <div className='col-6'>
           <div className="portfolio_item col-11" onClick={handlePortfolioItemClick}>
-            <div className="portfolio_item_inner ">
+            <div className="portfolio_item_inner netflix">
               <ul className="portfolio_categories">
-                <li>
-                  <a href="">Figma</a>
-                </li>
                 <li>
                   <a href="">HTML</a>
                 </li>
                 <li>
                   <a href="">CSS</a>
                 </li>
-                <li>
-                  <a href="">Bootstrap</a>
-                </li>
               </ul>
             </div>
-            <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
+            <h2><a href="https://netflix-ui-clone-six.vercel.app/index.html" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
           </div>
           {showCarousel && (
             <div className="carousel">
