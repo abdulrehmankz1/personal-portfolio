@@ -317,15 +317,26 @@ body {
       }
 
       .portfolio_item_inner {
-        background-image: url(../public/assets/images/eduport-1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
         height: 450px;
-        border-radius: 30px;
         position: relative;
         margin-bottom: 20px;
         cursor: pointer;
         transition: transform 0.3s; // Added transition for smooth hover effect
+      }
+      .eduport{
+        background-image: url(../public/assets/images/eduport-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        border-radius: 30px;
+      }
+      .netflix{
+        background-image: url(../public/assets/images/netflix-1.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
       }
 
       &:hover {
