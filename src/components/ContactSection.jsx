@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactSection() {
   return (
-    <div className='custom-container my-5 section_space contact_section'>
+    <div className='custom-container mt-5 mb-0 pb-5 section_space contact_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-dollar-sign"></i>
         &nbsp; CONTACT
@@ -26,7 +26,7 @@ function ContactSection() {
                   <label for="fullName">Full Name
                     <span className='star_color'>*</span>
                   </label>
-                  <input type="text" class="form-control" id="fullName" name="fullName" placeholder='Your full name' required />
+                  <input type="text" class="form-control border-0" id="fullName" name="fullName" placeholder='Your full name' required />
                 </div>
               </div>
               <div class="col-md-6">
@@ -59,6 +59,12 @@ function ContactSection() {
                   </select>
                 </div>
               </div>
+              {/* <select class="form-select form-select-sm bg-transparent text-light" aria-label="Small select example">
+                <option selected className='tect-light'>Open this select menu</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select> */}
             </div>
 
             <div class="row">
@@ -78,26 +84,29 @@ function ContactSection() {
                   <label for="message">Message
                     <span className='star_color'>*</span>
                   </label>
-                  <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                  <textarea class="form-control message" id="message" name="message" rows="4" placeholder='Wrire your message here ...' required></textarea>
                 </div>
               </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-5">
               <div class="col-md-12">
                 <div class="form-group">
-                  <label for="attachment">Attach File</label>
-                  <input type="file" class="form-control-file" id="attachment" name="attachment" />
-                  <small class="form-text text-muted">
-                    You can attach a file if needed.
-                  </small>
+                  <label for="attachment" class="d-flex align-items-center">
+                    <i class="fa-solid fa-cloud-arrow-up me-3"></i>
+                    Add an attachment
+                  </label>
+                  <input type="file" class="form-control-file d-none" id="attachment" name="attachment" />
                 </div>
+
+
               </div>
             </div>
 
             <div class="row">
               <div class="col-md-12">
-                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                <button type="submit" class="btn btn-primary">
+                  Send Message</button>
               </div>
             </div>
           </div>

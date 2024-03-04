@@ -430,34 +430,73 @@ body {
       color: #fff;
       margin-bottom: 2px;
     }
-
-    input {
-      display: block;
+    select#subject{
       color: #fff;
+      font-size: 18px;
+      margin-left: -10px;
+    }
+
+    .btn-primary {
+      background-color: $secondary-color;
+      color: #000000;
+      border: none;
+      border-radius: 30px;
+      text-align: center;
+      padding: 12px 58px 12px;
+
+      &:hover{
+        border: 1px solid $secondary-color;
+        background-color: #000000;
+        color: $secondary-color;
+      }
+    }
+
+    input,
+    textarea {
+      display: block;
+      color: #fff !important;
       width: 100%;
       border: none;
-      background: none;
+      // background: none;
+      background-color: transparent;
       font-size: 18px;
       padding: 0;
       transition: .2s;
-      padding-bottom: 3px;
+      padding: 5px 3px 7.5px;
       margin: 0 0 34px;
+      outline: none !important;
     }
 
     input:focus {
-      background-color: transparent;
       border: none;
+      outline: none;
     }
 
-    input::placeholder {
+    input::placeholder,
+    textarea::placeholder {
       display: block;
-      color: #fff;
+      color: #666666;
       border: none;
       background: none;
       font-size: 18px;
       padding: 0;
       transition: .2s;
       padding-bottom: 3px;
+      outline: none !important;
+    }
+
+    .message {
+      border-bottom: 1px solid $secondary-color !important;
+      border-radius: 0;
+      height: 150px;
+      resize: none;
+    }
+
+    .form-control {
+      background-color: transparent !important;
+      border: none;
+      outline: none !important;
+
     }
 
     .star_color {
