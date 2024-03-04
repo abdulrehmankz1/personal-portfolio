@@ -5,6 +5,9 @@ function PortfolioSection() {
   const [showNetflixCarousel, setShowNetflixCarousel] = useState(false);
   const [showNextjsAuthenticationCarousel, setShowNextjsAuthenticationCarousel] = useState(false);
   const [showSectechCarousel, setshowSectechCarousel] = useState(false);
+  const [showTodoCarousel, setshowTodoCarousel] = useState(false);
+  const [showAdminCarousel, setshowAdminCarousel] = useState(false);
+
 
 
   const handleEduportItemClick = () => {
@@ -12,6 +15,8 @@ function PortfolioSection() {
     setShowNetflixCarousel(false);
     setShowNextjsAuthenticationCarousel(false);
     setshowSectechCarousel(false);
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(false);
 
   };
 
@@ -20,7 +25,8 @@ function PortfolioSection() {
     setShowNetflixCarousel(true);
     setShowNextjsAuthenticationCarousel(false);
     setshowSectechCarousel(false);
-
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(false);
   };
 
   const handleNextjsAuthenticationItemClick = () => {
@@ -28,13 +34,33 @@ function PortfolioSection() {
     setShowNetflixCarousel(false);
     setShowNextjsAuthenticationCarousel(true);
     setshowSectechCarousel(false);
-
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(false);
   };
   const handleSectechClick = () => {
     setShowEduportCarousel(false);
     setShowNetflixCarousel(false);
     setShowNextjsAuthenticationCarousel(false);
     setshowSectechCarousel(true);
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(false);
+  };
+  const handleTodoClick = () => {
+    setShowEduportCarousel(false);
+    setShowNetflixCarousel(false);
+    setShowNextjsAuthenticationCarousel(false);
+    setshowSectechCarousel(false);
+    setshowTodoCarousel(true);
+    setshowAdminCarousel(false);
+
+  };
+  const handleAdminClick = () => {
+    setShowEduportCarousel(false);
+    setShowNetflixCarousel(false);
+    setShowNextjsAuthenticationCarousel(false);
+    setshowSectechCarousel(false);
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(true);
 
   };
 
@@ -43,7 +69,8 @@ function PortfolioSection() {
     setShowNetflixCarousel(false);
     setShowNextjsAuthenticationCarousel(false);
     setshowSectechCarousel(false);
-
+    setshowTodoCarousel(false);
+    setshowAdminCarousel(false);
   };
 
   return (
@@ -114,7 +141,7 @@ function PortfolioSection() {
         <div className='col-6'>
           <div className="portfolio_item col-10" onClick={handleNetflixItemClick}>
             <div className="portfolio_item_inner">
-              <div id="netflix" className="">
+              <div id="netflix">
                 <img src="./assets/images/netflix-1.png" height={450} width={400} className='rounded-4' alt="" />
                 <ul className="portfolio_categories">
                   <li>
@@ -176,7 +203,7 @@ function PortfolioSection() {
         <div className='col-6'>
           <div className="portfolio_item col-10" onClick={handleNextjsAuthenticationItemClick}>
             <div className="portfolio_item_inner">
-              <div id="authentication" className="">
+              <div id="authentication">
                 <img src="./assets/images/nextjs-authentication-1.png" height={450} width={400} className='rounded-4' alt="" />
                 <ul className="portfolio_categories">
                   <li>
@@ -222,7 +249,7 @@ function PortfolioSection() {
         <div className="portfolio_item col-11" onClick={handleSectechClick}>
           <div className="portfolio_item_inner">
             <div id='sectech' >
-              <img src="./assets/images/eduport-1.png" className='w-100 rounded-4' alt="" />
+              <img src="./assets/images/sectech-1.png" className='w-100 rounded-4' alt="" />
               <ul className="portfolio_categories">
                 <li>
                   <a href="">HTML</a>
@@ -236,7 +263,7 @@ function PortfolioSection() {
               </ul>
             </div>
           </div>
-          <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
+          <h2><a href="https://sectech-clone.vercel.app/" target="_blank" rel="noopener noreferrer" className='text-light'>Sectech UI Clone</a></h2>
         </div>
         {showSectechCarousel && (
           <div className="carousel">
@@ -244,16 +271,22 @@ function PortfolioSection() {
             <div id="sectechCarousel" className="carousel slide carousel-fade w-75 mx-auto" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src="./assets/images/eduport-1.png" className="d-block w-100" alt="..." />
+                  <img src="./assets/images/sectech-1.png" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                  <img src="./assets/images/eduport-2.png" className="d-block w-100" alt="..." />
+                  <img src="./assets/images/sectech-2.png" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                  <img src="./assets/images/eduport-3.png" className="d-block w-100" alt="..." />
+                  <img src="./assets/images/sectech-3.png" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                  <img src="./assets/images/eduport-4.png" className="d-block w-100" alt="..." />
+                  <img src="./assets/images/sectech-4.png" className="d-block w-100" alt="..." />
+                </div>
+                <div className="carousel-item">
+                  <img src="./assets/images/sectech-5.png" className="d-block w-100" alt="..." />
+                </div>
+                <div className="carousel-item">
+                  <img src="./assets/images/sectech-6.png" className="d-block w-100" alt="..." />
                 </div>
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#sectechCarousel" data-bs-slide="prev">
@@ -267,6 +300,105 @@ function PortfolioSection() {
             </div>
           </div>
         )}
+      </div>
+      <div className="row me-3">
+        <div className='col-6'>
+          <div className="portfolio_item col-10" onClick={handleTodoClick}>
+            <div className="portfolio_item_inner">
+              <div id="todo">
+                <img src="./assets/images/todo-app-1.png" height={450} width={400} className='rounded-4' alt="" />
+                <ul className="portfolio_categories">
+                  <li>
+                    <a href="">React.js</a>
+                  </li>
+                  <li>
+                    <a href="">Firebase</a>
+                  </li>
+                  <li>
+                    <a href="">Bootstrap</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2><a href="https://todo-app-ao73.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>TodoApp: React + Firebase</a></h2>
+          </div>
+          {showTodoCarousel && (
+            <div className="carousel">
+              <span className="close-button" onClick={handleCloseCarousel}>&times;</span>
+              <div id="todoCaoursel" className="carousel slide carousel-fade w-75 mx-auto" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src="./assets/images/todo-app-1.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/todo-app-2.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/todo-app-3.png" className="d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#todoCaoursel" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#todoCaoursel" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+        <div className='col-6'>
+          <div className="portfolio_item col-10" onClick={handleAdminClick}>
+            <div className="portfolio_item_inner">
+              <div id="admin">
+                <img src="./assets/images/react-admin-1.png" height={450} width={400} className='rounded-4' alt="" />
+                <ul className="portfolio_categories">
+                  <li>
+                    <a href="">React.js</a>
+                  </li>
+                  <li>
+                    <a href="">React Admin</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <h2><a href="https://react-admin-dashboard-gilt-eta.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>React Admin Dashboard</a></h2>
+          </div>
+          {showAdminCarousel && (
+            <div className="carousel">
+              <span className="close-button" onClick={handleCloseCarousel}>&times;</span>
+              <div id="adminCaoursel" className="carousel slide carousel-fade w-75 mx-auto" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img src="./assets/images/react-admin-1.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/react-admin-2.png" className="d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/react-admin-3.png" className=" d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/react-admin-4.png" className=" d-block w-100" alt="..." />
+                  </div>
+                  <div className="carousel-item">
+                    <img src="./assets/images/react-admin-5.png" className=" d-block w-100" alt="..." />
+                  </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#adminCaoursel" data-bs-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#adminCaoursel" data-bs-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
