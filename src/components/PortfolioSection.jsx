@@ -93,7 +93,7 @@ function PortfolioSection() {
           </div>
         )}
       </div>
-      <div className="row d-flex justify-content-around align-items-center me-3">
+      <div className="row me-3">
         <div className='col-6'>
           <div className="portfolio_item col-10" onClick={handleNetflixItemClick}>
             <div className="portfolio_item_inner">
@@ -164,21 +164,15 @@ function PortfolioSection() {
                 <img src="./assets/images/nextjs-authentication-1.png" height={450} width={400} className='rounded-4' alt="" />
                 <ul className="portfolio_categories">
                   <li>
-                    <a href="">Figma</a>
+                    <a href="">Next.js</a>
                   </li>
                   <li>
-                    <a href="">HTML</a>
-                  </li>
-                  <li>
-                    <a href="">CSS</a>
-                  </li>
-                  <li>
-                    <a href="">Bootstrap</a>
+                    <a href="">Tailwind CSS</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <h2><a href="https://eduport-black.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Bureau - Architecture Studio Website</a></h2>
+            <h2><a href="https://nextjs-authentication-project.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>Next.js Authentication Project</a></h2>
           </div>
           {showNextjsAuthenticationCarousel && (
             <div className="carousel">
