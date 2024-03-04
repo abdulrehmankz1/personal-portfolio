@@ -1,5 +1,6 @@
 import './App.css';
 import AboutSection from './components/AboutSection';
+import ContactSection from './components/ContactSection';
 import IntroSection from './components/IntroSection';
 import PortfolioSection from './components/PortfolioSection';
 import ResumeSection from './components/ResumeSection';
@@ -17,6 +18,7 @@ function App() {
       <ServicesSection />
       <SkillsSection />
       <PortfolioSection />
+      <ContactSection />
     </div>
   );
 }
