@@ -14,7 +14,9 @@ function ContactSection() {
           </span>
         </h2>
       </div>
-
+      <h3>
+        khanzadaabdulrehman1@gmail.com
+      </h3>
     </div>
   )
 }
