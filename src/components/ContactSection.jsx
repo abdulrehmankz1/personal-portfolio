@@ -36,7 +36,6 @@ function ContactSection() {
                 </div>
               </div>
             </div>
-
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -60,7 +59,6 @@ function ContactSection() {
                 </div>
               </div>
             </div>
-
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
@@ -71,7 +69,6 @@ function ContactSection() {
                 </div>
               </div>
             </div>
-
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
@@ -82,7 +79,6 @@ function ContactSection() {
                 </div>
               </div>
             </div>
-
             <div class="row mb-5">
               <div class="col-md-12">
                 <div class="form-group">
@@ -92,11 +88,8 @@ function ContactSection() {
                   </label>
                   <input type="file" class="form-control-file d-none" id="attachment" name="attachment" />
                 </div>
-
-
               </div>
             </div>
-
             <div class="row">
               <div class="col-md-12">
                 <button type="submit" class="btn btn-primary">
