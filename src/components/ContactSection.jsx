@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactSection() {
   return (
-    <div className='custom-container mt-5 mb-0 section_space contact_section'>
+    <div className='custom-container mt-5 mb-0 pb-0 section_space contact_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-dollar-sign"></i>
         &nbsp; CONTACT
@@ -51,20 +51,14 @@ function ContactSection() {
                   <label for="subject">Subject
                     <span className='star_color'>*</span>
                   </label>
-                  <select class="form-control" id="subject" name="subject" required>
-                    <option value="" disabled selected>Select Subject</option>
+                  <select class="form-control select_container" id="subject" name="subject" required>
+                    <option value="" selected>Select Subject</option>
                     <option value="general">General Inquiry</option>
                     <option value="support">Support Request</option>
                     <option value="feedback">Feedback</option>
                   </select>
                 </div>
               </div>
-              {/* <select class="form-select form-select-sm bg-transparent text-light" aria-label="Small select example">
-                <option selected className='tect-light'>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select> */}
             </div>
 
             <div class="row">
