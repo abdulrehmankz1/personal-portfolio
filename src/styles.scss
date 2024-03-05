@@ -430,10 +430,12 @@ body {
       color: #fff;
       margin-bottom: 2px;
     }
-    select#subject{
+
+    select#subject {
       color: #fff;
       font-size: 18px;
       margin-left: -10px;
+      font-weight: 300;
     }
 
     .btn-primary {
@@ -444,7 +446,7 @@ body {
       text-align: center;
       padding: 12px 58px 12px;
 
-      &:hover{
+      &:hover {
         border: 1px solid $secondary-color;
         background-color: #000000;
         color: $secondary-color;
@@ -467,9 +469,8 @@ body {
       outline: none !important;
     }
 
-    input:focus {
-      border: none;
-      outline: none;
+    .form-control:focus {
+      box-shadow: none;
     }
 
     input::placeholder,
@@ -498,6 +499,13 @@ body {
       outline: none !important;
 
     }
+    .select_container {
+      appearance: none;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="white" class="bi bi-chevron-down"><path d="M1 5.5a1 1 0 0 1 1.5-.87L8 9.64l5.5-4.02a1 1 0 1 1 1 1.74l-6 4.37a1 1 0 0 1-1 0l-6-4.37a1 1 0 0 1-.5-.87z"/></svg>') no-repeat right 10px center;
+      background-size: 10px; /* Adjust the size as needed */
+      color: white; /* Set the text color to white */
+      padding-right: 40px; /* Make space for the icon */
+    }
 
     .star_color {
       color: #FC4545;
@@ -509,6 +517,8 @@ body {
       color: #999999;
       text-transform: none;
     }
+
+
   }
 
   .section_badge {
