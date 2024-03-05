@@ -2,7 +2,7 @@ import React from 'react'
 
 function ResumeSection() {
   return (
-    <div className='custom-container my-5 section_space resume_section'>
+    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space resume_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-briefcase"></i>
         &nbsp; RESUME
