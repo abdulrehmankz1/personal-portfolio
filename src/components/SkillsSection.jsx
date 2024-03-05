@@ -7,7 +7,7 @@ function SkillsSection() {
         <i class="fa-solid fa-shapes"></i>
         &nbsp; MY SKILLS
       </span>
-      <div className='w-75'>
+      <div className='title_container'>
         <h2 className='text-light'>
           My <span className='hero_content'>
             Advantages
