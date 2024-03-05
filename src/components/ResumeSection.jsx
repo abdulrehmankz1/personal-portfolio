@@ -7,7 +7,7 @@ function ResumeSection() {
         <i class="fa-solid fa-briefcase"></i>
         &nbsp; RESUME
       </span>
-      <div className='w-75'>
+      <div className='title_container'>
         <h2 className='text-light'>
           Education & <span className='hero_content'>
             Experience
