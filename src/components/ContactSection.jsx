@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactSection() {
   return (
-    <div className='custom-container mt-5 mb-0 pb-5 section_space contact_section'>
+    <div className='custom-container mt-5 mb-0 section_space contact_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-dollar-sign"></i>
         &nbsp; CONTACT
