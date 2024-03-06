@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutSection() {
   return (
-    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space mx-xl-auto mx-lg-auto mx-md-auto'>
+    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-user"></i>
         &nbsp; ABOUT
