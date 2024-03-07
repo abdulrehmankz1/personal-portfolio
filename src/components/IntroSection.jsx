@@ -19,10 +19,29 @@ function IntroSection() {
 
   return (
     <div className='custom-container mb-5 mt-xl-0 mt-5'>
-      <span class="badge rounded-pill section_badge">
-        <i class="fa-solid fa-house"></i>
-        &nbsp; INTRODUCE
-      </span>
+      <div className='d-flex  justify-content-between'>
+        <span class="badge rounded-pill section_badge" data-aos="fade-up">
+          <i class="fa-solid fa-house"></i>
+          &nbsp; INTRODUCE
+        </span>
+        <span className='me-5 pe-5'>
+          <button class="btn icon_menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <span></span>
+            <span></span>
+
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              ...
+            </div>
+          </div>
+        </span>
+      </div>
       <h1 className='text-light' data-aos="fade-up">
         Say Hi from <span className='hero_content'>
           Abdul Rehman
