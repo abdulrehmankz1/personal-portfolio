@@ -2,12 +2,12 @@ import React from 'react'
 
 function ContactSection() {
   return (
-    <div className='custom-container mt-5 mb-0 pb-0 section_space contact_section'>
+    <div className='custom-container mt-xl-5 mt-lg-5 mt-md-5 mt-3 mb-0 pb-0 section_space contact_section'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-dollar-sign"></i>
         &nbsp; CONTACT
       </span>
-      <div className='w-75'>
+      <div className='title_container'>
         <h2 className='text-light'>
           Let's Work <span className='hero_content'>
             Together!
@@ -19,7 +19,7 @@ function ContactSection() {
       </h3>
       <div>
         <form action="mailto:khanzadaabdulrehman1@gmail.com" method="post" enctype="text/plain">
-          <div className='me-5'>
+          <div className='me-xl-5 me-lg-5 me-md-5 me-0'>
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
@@ -45,7 +45,7 @@ function ContactSection() {
                   <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder='Your phone number' />
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 mb-xl-0 mb-lg-0 mb-md-0 mb-4">
                 <div class="form-group">
                   <label for="subject">Subject
                     <span className='star_color'>*</span>
