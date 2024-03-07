@@ -570,6 +570,38 @@ body {
       }
     }
 
+    #netflix img {
+      width: 102% !important;
+    }
+
+    #authentication img {
+      width: 102% !important;
+    }
+
+    #todo img {
+      width: 102% !important;
+    }
+
+    #admin img {
+      width: 102% !important;
+    }
+
+    .portfolio_item_inner {
+      height: 300px !important;
+
+      img {
+        height: 300px !important;
+      }
+    }
+
+    .portfolio_categories {
+      flex-wrap: wrap !important;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+
   }
 
   @media (min-width: 576px) and (max-width: 767px) {
@@ -623,6 +655,26 @@ body {
         }
       }
     }
+
+    #netflix img {
+      width: 102% !important;
+    }
+
+    #authentication img {
+      width: 102% !important;
+    }
+
+    #todo img {
+      width: 102% !important;
+    }
+
+    #admin img {
+      width: 102% !important;
+    }
+
+    .portfolio_item_inner {
+      height: fit-content !important;
+    }
   }
 
   // Media query for medium screens (md)
@@ -675,6 +727,26 @@ body {
       h1 {
         font-size: 24px !important;
       }
+    }
+
+    #netflix img {
+      width: 102% !important;
+    }
+
+    #authentication img {
+      width: 102% !important;
+    }
+
+    #todo img {
+      width: 102% !important;
+    }
+
+    #admin img {
+      width: 102% !important;
+    }
+
+    .portfolio_item_inner {
+      height: fit-content !important;
     }
   }
 
