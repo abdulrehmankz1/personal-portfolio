@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import '../styles.scss';
 
 function Sidebar() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <div className='mx-3'>
       <div className="row">
-        <div className="col-xl-3 col-12 rounded-4 left-sidebar p-4">
-          {/* <div className='d-flex justify-content-between align-center info'>
-            <div>
-              <div className='title mb-0'>
-                Abdul Rehman
-              </div>
-            </div>
-            <div className='sub-title'>FrontEnd developer</div>
-          </div> */}
+        <div className="col-xl-3 col-12 rounded-4 left-sidebar p-4" data-aos="fade-right">
           <div className='info text-center'>
             <div>
               <div className='title mb-0'>

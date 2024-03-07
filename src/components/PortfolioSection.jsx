@@ -1,6 +1,14 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react'
+import AOS from 'aos';
+import '../styles.scss';
 
 function PortfolioSection() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   const [showEduportCarousel, setShowEduportCarousel] = useState(false);
   const [showNetflixCarousel, setShowNetflixCarousel] = useState(false);
   const [showNextjsAuthenticationCarousel, setShowNextjsAuthenticationCarousel] = useState(false);
@@ -74,17 +82,17 @@ function PortfolioSection() {
   };
 
   return (
-    <div id="portfolioSection" className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space portfolio_Section'>
+    <div id="portfolioSection" className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space portfolio_Section' data-aos="fade-up">
       <span className="badge rounded-pill section_badge">
         <i className="fa-solid fa-grip-vertical"></i>
         &nbsp; PORTFOLIO
       </span>
-      <div className='title_container'>
+      <div className='title_container' data-aos="fade-right">
         <h2 className='text-light'>
           Featured <span className='hero_content'>Projects</span>
         </h2>
       </div>
-      <div className="row">
+      <div className="row" data-aos="fade-up">
         <div className="portfolio_item col-xl-11 col-lg-11 col-md-11 col-11 mx-xl-0 mx-lg-0 mx-md-0 mx-auto" onClick={handleEduportItemClick}>
           <div className="portfolio_item_inner">
             <div id='eduport' className="eduport">
@@ -138,7 +146,7 @@ function PortfolioSection() {
         )}
       </div>
       <div className="row me-3 justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-center">
-        <div className='col-xl-6 col-lg-5 col-md-11 col-11'>
+        <div className='col-xl-6 col-lg-5 col-md-11 col-11' data-aos="fade-right">
           <div className="portfolio_item col-xl-10 col-lg-10 col-12" onClick={handleNetflixItemClick}>
             <div className="portfolio_item_inner">
               <div id="netflix">
@@ -200,7 +208,7 @@ function PortfolioSection() {
             </div>
           )}
         </div>
-        <div className='col-xl-6 col-lg-5 col-md-11 col-11'>
+        <div className='col-xl-6 col-lg-5 col-md-11 col-11' data-aos="fade-left">
           <div className="portfolio_item col-xl-10 col-lg-10 col-12" onClick={handleNextjsAuthenticationItemClick}>
             <div className="portfolio_item_inner">
               <div id="authentication">
@@ -245,7 +253,7 @@ function PortfolioSection() {
           )}
         </div>
       </div>
-      <div className="row">
+      <div className="row" data-aos="fade-up">
         <div className="portfolio_item col-xl-11 col-lg-11 col-md-11 col-11 mx-xl-0 mx-lg-0 mx-md-0 mx-auto" onClick={handleSectechClick}>
           <div className="portfolio_item_inner ">
             <div id='sectech' >
@@ -302,7 +310,7 @@ function PortfolioSection() {
         )}
       </div>
       <div className="row me-3 justify-content-xl-between justify-content-lg-between justify-content-md-between justify-content-center">
-        <div className='col-xl-6 col-lg-5 col-md-11 col-11'>
+        <div className='col-xl-6 col-lg-5 col-md-11 col-11' data-aos="fade-right">
           <div className="portfolio_item col-xl-10 col-lg-10 col-12" onClick={handleTodoClick}>
             <div className="portfolio_item_inner">
               <div id="todo">
@@ -349,7 +357,7 @@ function PortfolioSection() {
             </div>
           )}
         </div>
-        <div className='col-xl-6 col-lg-5 col-md-11 col-11'>
+        <div className='col-xl-6 col-lg-5 col-md-11 col-11' data-aos="fade-left">
           <div className="portfolio_item col-xl-10 col-lg-10 col-12" onClick={handleAdminClick}>
             <div className="portfolio_item_inner">
               <div id="admin">

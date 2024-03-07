@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import 'aos/dist/aos';
+
 
 $bg-color: #000000;
 $primary-color: #ffff;
@@ -537,7 +539,6 @@ body {
       font-size: 38px;
       line-height: 1.4;
     }
-
     .title_container {
       width: 100%;
     }
