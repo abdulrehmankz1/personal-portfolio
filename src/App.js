@@ -10,7 +10,7 @@ import SkillsSection from './components/SkillsSection';
 
 function App() {
   return (
-    <div className='container-fluid py-5 my-3'>
+    <div className='container-fluid py-xl-5 py-lg-5 py-md-5 py-3 my-xl-3 my-lg-3 my-md-3 my-0'>
       <Sidebar />
       <IntroSection />
       <AboutSection />
