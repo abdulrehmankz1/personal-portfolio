@@ -560,6 +560,21 @@ body {
       padding: 30px;
       width: 95%;
     }
+    .skills{
+      .skill {
+        margin-bottom: 0 !important;
+      }
+      .skill_inner {
+        border-radius: 50px !important;
+        padding: 30px 20px 20px 20px !important;
+        margin-bottom: 10px !important;
+        h1{
+          font-size: 22px !important;
+          margin-top: 10px !important;
+        }
+      }
+    }
+   
   }
 
   @media (min-width: 576px) and (max-width: 767px) {
@@ -593,6 +608,21 @@ body {
     .services_card {
       padding: 25px 20px 20px 25px;
       width: 48%;
+    }
+    
+    .skills{
+      .skill {
+        margin-bottom: 0 !important;
+      }
+      .skill_inner {
+        border-radius: 50px !important;
+        padding: 30px 20px 20px 20px !important;
+        margin-bottom: 10px !important;
+        h1{
+          font-size: 24px !important;
+          margin-top: 15px !important;
+        }
+      }
     }
   }
 
