@@ -277,15 +277,8 @@ body {
 
   .skills_section {
     .skills {
-      .skill {
-        margin-bottom: 50px;
-      }
-
       .skill_inner {
         border: 2px solid #565656;
-        border-radius: 85px;
-        padding: 54px 30px 20px 30px;
-        margin-bottom: 20px;
         transition: .3s;
 
         &:hover {
@@ -294,7 +287,6 @@ body {
       }
 
       h1 {
-        font-size: 30px;
         color: $secondary-color;
         font-weight: 300;
         margin: 0;
@@ -457,7 +449,6 @@ body {
       color: #fff !important;
       width: 100%;
       border: none;
-      // background: none;
       background-color: transparent;
       font-size: 18px;
       padding: 0;
@@ -556,25 +547,29 @@ body {
       width: 100%;
       margin: 0 auto;
     }
+
     .services_card {
       padding: 30px;
       width: 95%;
     }
-    .skills{
+
+    .skills {
       .skill {
         margin-bottom: 0 !important;
       }
+
       .skill_inner {
         border-radius: 50px !important;
         padding: 30px 20px 20px 20px !important;
         margin-bottom: 10px !important;
-        h1{
+
+        h1 {
           font-size: 22px !important;
           margin-top: 10px !important;
         }
       }
     }
-   
+
   }
 
   @media (min-width: 576px) and (max-width: 767px) {
@@ -600,25 +595,29 @@ body {
       width: 100%;
       margin: 0 auto;
     }
-    .services_container{
+
+    .services_container {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
+
     .services_card {
       padding: 25px 20px 20px 25px;
       width: 48%;
     }
-    
-    .skills{
+
+    .skills {
       .skill {
         margin-bottom: 0 !important;
       }
+
       .skill_inner {
         border-radius: 50px !important;
         padding: 30px 20px 20px 20px !important;
         margin-bottom: 10px !important;
-        h1{
+
+        h1 {
           font-size: 24px !important;
           margin-top: 15px !important;
         }
@@ -651,14 +650,31 @@ body {
       margin: 0 auto;
     }
 
-    .services_container{
+    .services_container {
       display: flex;
       justify-content: space-around;
       align-items: center;
     }
+
     .services_card {
       padding: 25px 20px 20px 25px;
       width: 48%;
+    }
+
+    .skills {
+      .skill {
+        margin-bottom: 35px;
+      }
+
+      .skill_inner {
+        border-radius: 85px;
+        padding: 45px 20px 15px;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 24px !important;
+      }
     }
   }
 
@@ -686,9 +702,26 @@ body {
       width: 75%;
       margin: 0 auto;
     }
+
     .services_card {
       padding: 44px 48px 41px 48px;
       width: 100%;
+    }
+
+    .skills {
+      .skill {
+        margin-bottom: 35px;
+      }
+
+      .skill_inner {
+        border-radius: 85px;
+        margin-bottom: 20px;
+        padding: 54px 30px 20px 30px;
+      }
+
+      h1 {
+        font-size: 26px !important;
+      }
     }
   }
 
@@ -726,10 +759,26 @@ body {
       padding: 44px 48px 41px 48px;
       width: 85%;
     }
-    .subHeading_container{
+
+    .subHeading_container {
       width: 610px;
     }
 
+    .skills {
+      .skill {
+        margin-bottom: 45px;
+      }
+
+      .skill_inner {
+        border-radius: 85px;
+        padding: 54px 30px 20px 30px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 30px !important;
+      }
+    }
   }
 
 }
