@@ -82,8 +82,8 @@ function PortfolioSection() {
   };
 
   return (
-    <div id="portfolioSection portfolio" className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space portfolio_Section' data-aos="fade-up">
-      <span className="badge rounded-pill section_badge">
+    <div id="portfolioSection" className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space portfolio_Section' data-aos="fade-up">
+      <span className="badge rounded-pill section_badge" id='portfolio'>
         <i className="fa-solid fa-grip-vertical"></i>
         &nbsp; PORTFOLIO
       </span>

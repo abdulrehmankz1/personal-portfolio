@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import '../styles.scss';
+import { Link } from 'react-scroll';
+
 
 function IntroSection() {
 
@@ -28,16 +30,85 @@ function IntroSection() {
           <button class="btn icon_menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
             <span></span>
             <span></span>
-
           </button>
 
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div class="offcanvas-header d-flex justify-content-between align-items-center text-center">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+              <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="fa-solid fa-rectangle-xmark fa-xl"></i>
+              </button>
             </div>
             <div class="offcanvas-body">
-              ...
+              <div className='d-xl-block d-none'>
+                <ul className="scroll-nav d-flex">
+                  <li>
+                    <Link to="home" smooth={true} duration={500}>
+                      <i className="fa-solid fa-house fa-sm"></i>
+                      <span className="tooltiptext">Home</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="about" smooth={true} duration={500}>
+                      <i className="fa-solid fa-user fa-sm"></i>
+                      <span className="tooltiptext">About</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="resume" smooth={true} duration={500}>
+                      <i className="fa-solid fa-briefcase fa-sm"></i>
+                      <span className="tooltiptext">Resume</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="services" smooth={true} duration={500}>
+                      <i className="fa-solid fa-envelope fa-sm"></i>
+                      <span className="tooltiptext">Services</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="skills" smooth={true} duration={500}>
+                      <i className="fa-solid fa-bars-staggered fa-sm"></i>
+                      <span className="tooltiptext">Skills</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="portfolio" smooth={true} duration={500}>
+                      <i className="fa-solid fa-shapes fa-sm"></i>
+                      <span className="tooltiptext">Portfolio</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="contact" smooth={true} duration={500}>
+                      <i className="fa-solid fa-grip-vertical fa-sm"></i>
+                      <span className="tooltiptext">Contact</span>
+                    </Link>
+                  </li>
+                </ul>
+                <div className="social">
+                  <h6>
+                    Social
+                  </h6>
+                  <ul>
+                    <li>
+
+                      <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
+                        <i className="fa-brands fa-linkedin fa-md"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
+                        <i className="fa-brands fa-linkedin fa-md"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
+                        <i className="fa-brands fa-linkedin fa-md"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </span>
