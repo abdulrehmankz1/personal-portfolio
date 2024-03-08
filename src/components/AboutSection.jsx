@@ -10,7 +10,7 @@ function AboutSection() {
   }, []);
 
   return (
-    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space' data-aos="fade-up">
+    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space' data-aos="fade-up" id='about'>
       <span class="badge rounded-pill section_badge" data-aos="fade-up">
         <i class="fa-solid fa-user"></i>
         &nbsp; ABOUT

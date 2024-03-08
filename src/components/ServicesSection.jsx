@@ -10,7 +10,7 @@ function ServicesSection() {
   }, []);
 
   return (
-    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space services_section' data-aos="fade-up">
+    <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space services_section' data-aos="fade-up" id='services'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-bars-staggered"></i>
         &nbsp; Services

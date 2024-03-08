@@ -10,7 +10,7 @@ function ContactSection() {
   }, []);
 
   return (
-    <div className='custom-container mt-xl-5 mt-lg-5 mt-md-5 mt-3 mb-0 pb-0 section_space contact_section' data-aos="fade-up">
+    <div className='custom-container mt-xl-5 mt-lg-5 mt-md-5 mt-3 mb-0 pb-0 section_space contact_section' data-aos="fade-up" id='contact'>
       <span class="badge rounded-pill section_badge">
         <i class="fa-solid fa-dollar-sign"></i>
         &nbsp; CONTACT
