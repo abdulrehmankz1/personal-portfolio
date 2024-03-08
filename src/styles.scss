@@ -922,17 +922,61 @@ body {
       z-index: 20;
       list-style: none !important;
 
+      .tip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+        /* If you want dots under the hoverable text */
+
+        .tooltiptext {
+          visibility: hidden;
+          width: 100px;
+          background-color: #1f1f1f;
+          color: #fff;
+          text-align: center;
+          padding: 5px 0;
+          border-radius: 6px;
+          position: absolute;
+          z-index: 1;
+          left: -105px;
+          top: 70%;
+          transform: translateY(-50%);
+          font-size: 15px;
+        }
+
+        .tooltiptext::before {
+          content: '';
+          position: absolute;
+          top: 10px;
+          right: -19px;
+          margin-top: -5px;
+          border-width: 10px;
+          border-style: solid;
+          text-align: center;
+          border-color: transparent transparent transparent #1f1f1f;
+        }
+
+        &:hover .tooltiptext {
+          visibility: visible;
+        }
+      }
+
+
+
       li {
+        cursor: pointer;
+
         i {
           text-decoration: none !important;
           color: $primary-color;
-          transition: color 0.3s; /* Add a smooth color transition effect */
+          transition: color 0.3s;
         }
-      
+
         &:hover i {
-          color:  $secondary-color;/* Change the color to white on hover */
+          color: $secondary-color;
         }
       }
+
 
       ul {
         margin: 0;
