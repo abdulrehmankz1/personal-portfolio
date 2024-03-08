@@ -694,8 +694,8 @@ body {
     }
 
     .custom-container {
-      width: 100%;
-      margin: 0 auto;
+      width: 90% !important;
+      margin: 0 auto !important;
     }
 
     .services_container {
@@ -749,6 +749,11 @@ body {
     .section_space {
       padding: 20px 0;
     }
+    .icon_menu {
+      position: fixed !important;
+      right: 30px;
+      top: 40px;
+    }
   }
 
   // Media query for medium screens (md)
@@ -771,9 +776,14 @@ body {
       width: 100%;
     }
 
-    .custom-container {
-      width: 90%;
+    .left-sidebar {
+      width: 90% !important;
       margin: 0 auto;
+    }
+
+    .custom-container {
+      width: 90% !important;
+      margin: 0 auto !important;
     }
 
     .services_container {
@@ -826,6 +836,12 @@ body {
     .section_space {
       padding: 40px 0;
     }
+     .icon_menu {
+      position: fixed !important;
+      right: 68px;
+      top: 68px;
+    }
+
   }
 
   // Media query for large screens (lg)
@@ -848,9 +864,18 @@ body {
       width: 100%;
     }
 
-    .custom-container {
-      width: 75%;
+    .left-sidebar {
+      width: 767px;
       margin: 0 auto;
+    }
+
+    .custom-container {
+      width: 767px;
+      margin: 0 auto;
+    }
+
+    .portfolio_item_inner {
+      height: fit-content !important;
     }
 
     .services_card {
@@ -876,6 +901,12 @@ body {
 
     .section_space {
       padding: 50px 0;
+    }
+
+    .icon_menu {
+      position: fixed !important;
+      right: 68px;
+      top: 68px;
     }
   }
 
@@ -905,15 +936,17 @@ body {
 
     .icon_menu {
       position: absolute !important;
+      right: 68px;
+      top: 68px;
     }
 
     .menu {
       flex-direction: column;
       border: 1px solid #575757;
       border-radius: 30px;
-      position: fixed;
+      position: fixed !important;
       top: 50%;
-      right: 68px;
+      right: 69px;
       transform: translateY(-50%);
       width: 55px;
       text-align: center;
@@ -927,7 +960,6 @@ body {
         position: relative;
         display: inline-block;
         border-bottom: 1px dotted black;
-        /* If you want dots under the hoverable text */
 
         .tooltiptext {
           visibility: hidden;
