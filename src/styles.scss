@@ -9,6 +9,7 @@ $secondary-color: #28e98c;
 body {
   background-color: $bg-color;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 
   h1 {
     letter-spacing: -0.2px;
@@ -922,13 +923,13 @@ body {
       list-style: none !important;
 
       li {
-        a {
+        i {
           text-decoration: none !important;
           color: $primary-color;
           transition: color 0.3s; /* Add a smooth color transition effect */
         }
       
-        &:hover a {
+        &:hover i {
           color:  $secondary-color;/* Change the color to white on hover */
         }
       }
