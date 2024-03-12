@@ -11,10 +11,10 @@ function AboutSection() {
 
   return (
     <div className='custom-container my-xl-4 my-lg-5 my-md-5 my-3 section_space pt-xl-4' data-aos="fade-up" id='about'>
-      {/* <span class="badge rounded-pill section_badge" data-aos="fade-up">
+      <span class="badge rounded-pill section_badge" data-aos="fade-up">
         <i class="fa-solid fa-user"></i>
         &nbsp; ABOUT
-      </span> */}
+      </span>
       <div className='title_container' data-aos="fade-up">
         <h2 className='text-light'>
           Every great design begin with
