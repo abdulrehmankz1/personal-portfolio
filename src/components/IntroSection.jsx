@@ -31,7 +31,6 @@ function IntroSection() {
             <span></span>
             <span></span>
           </button>
-
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header d-flex justify-content-between align-items-center text-center">
               <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
@@ -40,7 +39,7 @@ function IntroSection() {
               </button>
             </div>
             <div class="offcanvas-body">
-              <div className='d-xl-block d-none'>
+              <div className='d-xl-block'>
                 <ul className="scroll-nav d-flex">
                   <li>
                     <Link to="home" smooth={true} duration={500}>
