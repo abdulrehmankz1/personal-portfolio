@@ -256,6 +256,16 @@ body {
       }
     }
   }
+  .social{
+   ul {
+    display: flex;
+    flex-direction: row !important;
+    li {
+      margin-right: 10px;
+    }
+   }
+
+  }
 
   .resume_section {
     .timeline {
@@ -461,23 +471,24 @@ body {
       align-items: center;
       opacity: 0;
       animation: fadeIn 0.5s forwards;
-      z-index: 100;
+      // z-index: 100;
     }
 
     .close-button {
       position: absolute;
-      top: 40px;
-      right: 40px;
+      top: 4px;
+      // right: -400px !important;
       color: #fff;
       font-size: 35px;
       cursor: pointer;
       transition: color 0.3s;
-      left: 90%;
+      left: 75%;
       width: 50px;
       height: 50px;
       align-items: center;
       display: flex;
       justify-content: center;
+      z-index: 100;
 
       &:hover {
         color: #28e98c;
@@ -996,7 +1007,6 @@ body {
 
     .left-sidebar {
       position: fixed;
-      // height: 80vh;
     }
 
     .icon_menu {
@@ -1086,6 +1096,7 @@ body {
       width: 65%;
       margin-left: auto !important;
       margin-top: 5px;
+      margin-right: 50px !important;
     }
 
     .services_card {

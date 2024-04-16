@@ -89,21 +89,20 @@ function IntroSection() {
                   <h6>
                     Social
                   </h6>
-                  <ul>
-                    <li>
-
-                      <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
-                        <i className="fa-brands fa-linkedin fa-md"></i>
-                      </a>
-                    </li>
+                  <ul className='pt-1'>
                     <li>
                       <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
                         <i className="fa-brands fa-linkedin fa-md"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/">
-                        <i className="fa-brands fa-linkedin fa-md"></i>
+                      <a href="https://github.com/abdulrehmankz1">
+                        <i className="fa-brands fa-github fa-md"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.upwork.com/freelancers/~01ac9dfd5b35dc7b35?viewMode=1">
+                        <i className="fa-brands fa-upwork fa-md"></i>
                       </a>
                     </li>
                   </ul>
