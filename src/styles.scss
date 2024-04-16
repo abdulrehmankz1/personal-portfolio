@@ -653,7 +653,15 @@ body {
       width: 100%;
       margin: 0 auto;
     }
-
+.offcanvas{
+  width: 280px !important;
+  .offcanvas-header{
+    width: 70% !important;
+  }
+  .offcanvas-body{
+    width: 70% !important;
+  }
+}
     .services_card {
       padding: 30px;
       width: 95%;
