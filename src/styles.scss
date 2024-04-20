@@ -12,7 +12,7 @@ body {
   background-color: #040404;
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
-  
+
 
   h1 {
     letter-spacing: -0.2px;
@@ -232,7 +232,7 @@ body {
       width: 46%;
       margin: 0 auto;
       padding-left: 0;
-   
+
 
       ul {
         list-style: none;
@@ -257,20 +257,22 @@ body {
             font-size: 12px;
             color: #999999;
             margin-top: -10px;
-          
+
           }
         }
       }
     }
   }
-  .social{
-   ul {
-    display: flex;
-    flex-direction: row !important;
-    li {
-      margin-right: 10px;
+
+  .social {
+    ul {
+      display: flex;
+      flex-direction: row !important;
+
+      li {
+        margin-right: 10px;
+      }
     }
-   }
 
   }
 
@@ -641,6 +643,7 @@ body {
     body {
       font-size: 18px;
     }
+
     h1 {
       font-size: 50px;
       line-height: 1.2;
@@ -659,15 +662,19 @@ body {
       width: 100%;
       margin: 0 auto;
     }
-.offcanvas{
-  width: 280px !important;
-  .offcanvas-header{
-    width: 70% !important;
-  }
-  .offcanvas-body{
-    width: 70% !important;
-  }
-}
+
+    .offcanvas {
+      width: 280px !important;
+
+      .offcanvas-header {
+        width: 70% !important;
+      }
+
+      .offcanvas-body {
+        width: 70% !important;
+      }
+    }
+
     .services_card {
       padding: 30px;
       width: 95%;
@@ -759,13 +766,14 @@ body {
     .portfolio_categories {
       left: -18px !important;
     }
+
     .icon_menu {
       position: fixed !important;
       right: 13px;
       top: 35px;
       overflow-x: hidden;
 
-      &:hover{
+      &:hover {
         border: 2px solid #27ea8c;
       }
 
@@ -1138,7 +1146,8 @@ body {
     }
 
     .skills {
-        width: 115% !important;
+      width: 115% !important;
+
       .skill {
         margin-bottom: 45px;
         // display: flex;
@@ -1165,30 +1174,34 @@ body {
 
 
   @media (min-height: 630px) and (max-height: 730px) {
-  .left-sidebar{
-    height: 93vh;
+    .left-sidebar {
+      height: 93vh;
+    }
+
+    .small {
+      margin-bottom: 0px !important;
+    }
+
+    .rights {
+      margin: 8px 0 !important;
+    }
   }
-  .small{
-    margin-bottom: 0px !important;
-  }
-  .rights{
-    margin: 8px 0 !important;
-  }
-  }
+
   @media (min-height: 731px) and (max-height: 799px) {
-    .left-sidebar{
+    .left-sidebar {
       height: 700px !important;
-      position:fixed !important;
+      position: fixed !important;
       top: 5%;
       padding-top: 35px !important;
     }
-    }
-@media (min-height: 800px) and (max-height: 5000px) {
-  .left-sidebar{
-    height: 665px !important;
-    top: 10%;
-    margin-top: 11% !important;
   }
 
-}
+  @media (min-height: 800px) and (max-height: 5000px) {
+    .left-sidebar {
+      height: 665px !important;
+      top: 10%;
+      margin-top: 11% !important;
+    }
+
+  }
 }
