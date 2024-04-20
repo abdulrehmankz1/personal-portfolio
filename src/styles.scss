@@ -1175,10 +1175,19 @@ body {
     margin: 8px 0 !important;
   }
   }
+  @media (min-height: 731px) and (max-height: 799px) {
+    .left-sidebar{
+      height: 700px !important;
+      position:fixed !important;
+      top: 5%;
+      padding-top: 35px !important;
+    }
+    }
 @media (min-height: 800px) and (max-height: 5000px) {
   .left-sidebar{
     height: 665px !important;
     top: 10%;
+    margin-top: 11% !important;
   }
 
 }
