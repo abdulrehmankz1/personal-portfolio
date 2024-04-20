@@ -3,13 +3,16 @@
 
 
 $bg-color: #000000;
-$primary-color: #ffff;
-$secondary-color: #28e98c;
+$primary-color: #ffffff;
+$secondary-color: #27ea8c;
+// $secondary-color: #27ea8c;
 
 body {
-  background-color: $bg-color;
+  // background-color: $bg-color;
+  background-color: #040404;
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  
 
   h1 {
     letter-spacing: -0.2px;
@@ -27,7 +30,7 @@ body {
   .left-sidebar {
     border: 1px solid #565656;
     color: aliceblue;
-    height: 85vh !important;
+    // height: 85vh !important;
     
 
     .info {
@@ -159,7 +162,9 @@ body {
       border-radius: 120px;
       cursor: pointer;
       text-decoration: none;
-      color: #999999;
+      // color: #999999;
+      color: white;
+      // opacity: 0.8;
       right: 150px;
 
       &:hover {
@@ -337,11 +342,11 @@ body {
 
           &:hover {
             &:before {
-              background-color: #28e98c;
+              background-color: #27ea8c;
             }
 
             .date {
-              color: #28e98c;
+              color: #27ea8c;
             }
           }
         }
@@ -360,7 +365,7 @@ body {
       // width: 85%;
 
       &:hover {
-        border: 1px solid #28e98c;
+        border: 1px solid #27ea8c;
 
       }
 
@@ -433,7 +438,7 @@ body {
 
         .portfolio_categories {
           a {
-            background: #28e98c;
+            background: #27ea8c;
             color: #000;
           }
         }
@@ -493,7 +498,7 @@ body {
       z-index: 100;
 
       &:hover {
-        color: #28e98c;
+        color: #27ea8c;
       }
     }
 
@@ -636,7 +641,6 @@ body {
     body {
       font-size: 18px;
     }
-
     h1 {
       font-size: 50px;
       line-height: 1.2;
@@ -755,6 +759,17 @@ body {
     .portfolio_categories {
       left: -18px !important;
     }
+    .icon_menu {
+      position: fixed !important;
+      right: 13px;
+      top: 35px;
+      overflow-x: hidden;
+
+      &:hover{
+        border: 2px solid #27ea8c;
+      }
+
+    }
   }
 
   @media (min-width: 576px) and (max-width: 767px) {
@@ -835,8 +850,9 @@ body {
 
     .icon_menu {
       position: fixed !important;
-      right: 30px;
+      right: 125px;
       top: 40px;
+      overflow-x: hidden;
     }
   }
 
@@ -1103,10 +1119,10 @@ body {
     }
 
     .custom-container {
-      width: 65%;
+      width: 63%;
       margin-left: auto !important;
       margin-top: 5px;
-      margin-right: 50px !important;
+      margin-right: 70px !important;
     }
 
     .services_card {
@@ -1119,8 +1135,11 @@ body {
     }
 
     .skills {
+        width: 115% !important;
       .skill {
         margin-bottom: 45px;
+        // display: flex;
+        // justify-content: space-between;
       }
 
       .skill_inner {
