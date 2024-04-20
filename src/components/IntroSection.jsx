@@ -20,7 +20,7 @@ function IntroSection() {
   }, []);
 
   return (
-    <div className='custom-container mb-5 mt-xl-0 py-md-0 py-2 mt-5' id='home'>
+    <div className='custom-container mb-5 mt-xl-0 py-md-0 py-2 mt-5 py-xl-3' id='home'>
       <div className='d-flex justify-content-between'>
         <span class="badge rounded-pill section_badge" data-aos="fade-up">
           <i class="fa-solid fa-house"></i>

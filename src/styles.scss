@@ -30,8 +30,7 @@ body {
   .left-sidebar {
     border: 1px solid #565656;
     color: aliceblue;
-    height: 90vh !important;
-    
+    // height: 90vh !important;    
 
     .info {
       align-items: center;
@@ -1033,6 +1032,9 @@ body {
 
     .left-sidebar {
       position: fixed;
+      height: 89vh;
+      top: 5%;
+      bottom: 5%;
     }
 
     .icon_menu {

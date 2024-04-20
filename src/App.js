@@ -11,7 +11,7 @@ import SkillsSection from './components/SkillsSection';
 
 function App() {
   return (
-    <div className='container-fluid py-xl-5 py-lg-4 py-4 my-xl-3 my-lg-3 my-md-3 my-0'>
+    <div className='container-fluid py-lg-4 py-4 my-xl-3 my-lg-3 my-md-3 my-0 overflow-hidden'>
       <MenuBar />
       <Sidebar />
       <IntroSection />
