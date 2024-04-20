@@ -5,7 +5,7 @@
 $bg-color: #000000;
 $primary-color: #ffffff;
 $secondary-color: #27ea8c;
-// $secondary-color: #27ea8c;
+// $secondary-color: #19ea8c;
 
 body {
   // background-color: $bg-color;
@@ -136,6 +136,7 @@ body {
 
     .hero_content {
       color: $secondary-color;
+      opacity: 0.9;
     }
 
     .sub_heading {
@@ -1160,4 +1161,25 @@ body {
     }
   }
 
+
+
+
+  @media (min-height: 630px) and (max-height: 730px) {
+  .left-sidebar{
+    height: 93vh;
+  }
+  .small{
+    margin-bottom: 0px !important;
+  }
+  .rights{
+    margin: 8px 0 !important;
+  }
+  }
+@media (min-height: 800px) and (max-height: 5000px) {
+  .left-sidebar{
+    height: 665px !important;
+    top: 10%;
+  }
+
+}
 }
