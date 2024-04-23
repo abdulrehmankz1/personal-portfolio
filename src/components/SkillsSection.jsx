@@ -12,7 +12,7 @@ function SkillsSection() {
   return (
     <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space skills_section' data-aos="fade-up" id='skills'>
       <span class="badge rounded-pill section_badge">
-        <i class="fa-solid fa-shapes"></i>
+        <i class="fa-thin fa-shapes"></i>
         &nbsp; MY SKILLS
       </span>
       <div className='title_container'>
