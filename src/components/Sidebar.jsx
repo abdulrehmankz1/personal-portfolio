@@ -56,7 +56,7 @@ function Sidebar() {
           </div>
           <div className='d-flex justify-content-center align-items-center w-full mb-1'>
             <a href="mailto:khanzadaabdulrehman1@gmail.com" className='text-decoration-none hire-btn rounded-5'>
-              <i class="fa-regular fa-envelope"></i>
+              <i class="fa-thin fa-envelope"></i>
               &nbsp;HIRE ME!
             </a>
           </div>
