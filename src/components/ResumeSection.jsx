@@ -12,7 +12,7 @@ function ResumeSection() {
   return (
     <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space resume_section' data-aos="fade-up" id='resume'>
       <span class="badge rounded-pill section_badge" data-aos="fade-up">
-        <i class="fa-solid fa-briefcase"></i>
+        <i class="fa-thin fa-briefcase"></i>
         &nbsp; RESUME
       </span>
       <div className='title_container' data-aos="fade-up">
