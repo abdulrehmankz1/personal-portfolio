@@ -12,7 +12,7 @@ function ContactSection() {
   return (
     <div className='custom-container mt-xl-5 mt-lg-5 mt-md-5 mt-3 mb-0 pb-0 section_space contact_section' data-aos="fade-up" id='contact'>
       <span class="badge rounded-pill section_badge">
-        <i class="fa-solid fa-dollar-sign"></i>
+        <i class="fa-thin fa-dollar-sign"></i>
         &nbsp; CONTACT
       </span>
       <div className='title_container' data-aos="fade-right">
@@ -91,7 +91,7 @@ function ContactSection() {
               <div class="col-md-12">
                 <div class="form-group">
                   <label for="attachment" class="d-flex align-items-center">
-                    <i class="fa-solid fa-cloud-arrow-up me-3"></i>
+                    <i class="fa-thin fa-cloud-arrow-up me-3"></i>
                     Add an attachment
                   </label>
                   <input type="file" class="form-control-file d-none" id="attachment" name="attachment" />
