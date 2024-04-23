@@ -123,7 +123,7 @@ function IntroSection() {
       </div>
       <div className='arrow_down ms-auto' onClick={scrollToPortfolio}>
         <img src="./assets/images/round-text.png" alt="round-text" />
-        <i class="fa-thin fa-arrow-down-long fa-2x"></i>
+        <i class="fa-sharp fa-thin fa-arrow-down fa-3x"></i>
       </div>
     </div>
   )
