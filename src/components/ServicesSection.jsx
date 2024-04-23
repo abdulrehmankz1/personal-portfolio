@@ -12,7 +12,7 @@ function ServicesSection() {
   return (
     <div className='custom-container my-xl-5 my-lg-5 my-md-5 my-3 section_space services_section' data-aos="fade-up" id='services'>
       <span class="badge rounded-pill section_badge">
-        <i class="fa-solid fa-bars-staggered"></i>
+        <i class="fa-thin fa-bars-staggered"></i>
         &nbsp; Services
       </span>
       <div className='title_container' data-aos="fade-up">
@@ -28,7 +28,7 @@ function ServicesSection() {
             <p className='title'>
               Website Design
             </p>
-            <i class="fa-solid fa-bezier-curve fa-xl"></i>
+            <i class="fa-thin fa-bezier-curve fa-xl"></i>
           </span>
           <p className='sub_title'>
             I created digital products with unique ideas use Figma & Framer
@@ -39,7 +39,7 @@ function ServicesSection() {
             <p className='title'>
               Development
             </p>
-            <i class="fa-solid fa-code fa-xl"></i>
+            <i class="fa-thin fa-code fa-xl"></i>
           </span>
           <p className='sub_title'>
             I build website go live with Framer, Webflow or WordPress
