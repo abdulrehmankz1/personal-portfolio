@@ -23,7 +23,7 @@ function IntroSection() {
     <div className='custom-container mb-5 mt-xl-0 py-md-0 py-2 mt-5 py-xl-3' id='home'>
       <div className='d-flex justify-content-between'>
         <span class="badge rounded-pill section_badge" data-aos="fade-up">
-          <i class="fa-solid fa-house"></i>
+          <i class="fa-thin fa-house"></i>
           &nbsp; INTRODUCE
         </span>
         <span className='me-5 pe-5'>
@@ -35,7 +35,7 @@ function IntroSection() {
             <div class="offcanvas-header d-flex justify-content-between align-items-center text-center">
               <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
               <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="fa-solid fa-rectangle-xmark fa-xl"></i>
+                <i class="fa-thin fa-rectangle-xmark fa-xl"></i>
               </button>
             </div>
             <div class="offcanvas-body">
@@ -43,43 +43,43 @@ function IntroSection() {
                 <ul className="scroll-nav d-flex">
                   <li>
                     <Link to="home" smooth={true} duration={500}>
-                      <i className="fa-solid fa-house fa-sm"></i>
+                      <i className="fa-thin fa-house fa-sm"></i>
                       <span className="tooltiptext">Home</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="about" smooth={true} duration={500}>
-                      <i className="fa-solid fa-user fa-sm"></i>
+                      <i className="fa-thin fa-user fa-sm"></i>
                       <span className="tooltiptext">About</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="resume" smooth={true} duration={500}>
-                      <i className="fa-solid fa-briefcase fa-sm"></i>
+                      <i className="fa-thin fa-briefcase fa-sm"></i>
                       <span className="tooltiptext">Resume</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="services" smooth={true} duration={500}>
-                      <i className="fa-solid fa-envelope fa-sm"></i>
+                      <i className="fa-thin fa-envelope fa-sm"></i>
                       <span className="tooltiptext">Services</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="skills" smooth={true} duration={500}>
-                      <i className="fa-solid fa-bars-staggered fa-sm"></i>
+                      <i className="fa-thin fa-bars-staggered fa-sm"></i>
                       <span className="tooltiptext">Skills</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="portfolio" smooth={true} duration={500}>
-                      <i className="fa-solid fa-shapes fa-sm"></i>
+                      <i className="fa-thin fa-shapes fa-sm"></i>
                       <span className="tooltiptext">Portfolio</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="contact" smooth={true} duration={500}>
-                      <i className="fa-solid fa-grip-vertical fa-sm"></i>
+                      <i className="fa-thin fa-grip-vertical fa-sm"></i>
                       <span className="tooltiptext">Contact</span>
                     </Link>
                   </li>
@@ -123,7 +123,7 @@ function IntroSection() {
       </div>
       <div className='arrow_down ms-auto' onClick={scrollToPortfolio}>
         <img src="./assets/images/round-text.png" alt="round-text" />
-        <i class="fa-solid fa-arrow-down-long fa-2x"></i>
+        <i class="fa-thin fa-arrow-down-long fa-2x"></i>
       </div>
     </div>
   )
