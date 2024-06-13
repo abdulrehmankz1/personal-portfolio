@@ -241,7 +241,6 @@ body {
       margin: 0 auto;
       padding-left: 0;
 
-
       ul {
         list-style: none;
         flex-direction: column;
@@ -265,13 +264,21 @@ body {
             font-size: 12px;
             color: #999999;
             margin-top: -10px;
-
+          }
+          &:hover {
+            i,
+            span {
+              color: $secondary-color;
+            }
+          }
+          a {
+            text-decoration: none;
+            color: inherit; // Ensures anchor tags inherit parent color
           }
         }
       }
     }
   }
-
   .social {
     ul {
       display: flex;
@@ -1160,6 +1167,10 @@ body {
       background: #000000;
       z-index: 20;
       list-style: none !important;
+
+      .menu .selected {
+        color: $secondary-color;
+      }
 
       .tip {
         position: relative;
