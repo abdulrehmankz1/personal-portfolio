@@ -88,6 +88,23 @@ const PortfolioSection = ({ onProjectClick, projectImages }) => {
           <h2><a href="https://react-admin-dashboard-gilt-eta.vercel.app" target="_blank" rel="noopener noreferrer" className='text-light'>React Admin Dashboard</a></h2>
         </div>
       </div>
+      <div class="row pe-xl-5 pe-lg-5 pe-0" data-aos="fade-left">
+        <div class="col portfolio_item" onClick={() => onProjectClick(projectImages.learningSkills)}>
+          <div class="card border-0 portfolio_item_inner">
+            <img src="/assets/images/learning-skills-1.png" style={{ height: '400px' }} class="card-img-top rounded-3" alt="project-img" />
+            <ul className="portfolio_categories">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <h2>
+            <a href="https://the-learning-skills.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-light">
+           The Learning Skills
+            </a>
+          </h2>
+        </div>
+      </div>
     </div>
   );
 };

@@ -63,6 +63,18 @@ const App = () => {
       '/assets/images/react-admin-4.png',
       '/assets/images/react-admin-5.png',
     ],
+    learningSkills: [
+      '/assets/images/learning-skills-1.png',
+      '/assets/images/learning-skills-2.png',
+      '/assets/images/learning-skills-3.png',
+      '/assets/images/learning-skills-4.png',
+      '/assets/images/learning-skills-5.png',
+      '/assets/images/learning-skills-6.png',
+      '/assets/images/learning-skills-7.png',
+      '/assets/images/learning-skills-8.png',
+      '/assets/images/learning-skills-9.png',
+      '/assets/images/learning-skills-10.png',
+    ],
   };
 
   return (
