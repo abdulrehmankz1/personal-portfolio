@@ -35,7 +35,7 @@ function IntroSection() {
             <div class="offcanvas-header d-flex justify-content-between align-items-center text-center">
               <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
               <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
-                <i class="fa-thin fa-rectangle-xmark fa-xl"></i>
+                <i class="fa-thin fa-xmark"></i>
               </button>
             </div>
             <div class="offcanvas-body">
