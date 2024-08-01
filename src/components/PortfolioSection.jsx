@@ -105,6 +105,23 @@ const PortfolioSection = ({ onProjectClick, projectImages }) => {
           </h2>
         </div>
       </div>
+      <div class="row pe-xl-5 pe-lg-5 pe-0" data-aos="fade-right">
+        <div class="col portfolio_item" onClick={() => onProjectClick(projectImages.boldo)}>
+          <div class="card border-0 portfolio_item_inner">
+            <img src="/assets/images/boldo-1.png" style={{ height: '400px' }} class="card-img-top rounded-3" alt="project-img" />
+            <ul className="portfolio_categories">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <h2>
+            <a href="https://boldo-website-template.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-light">
+            Boldo Website Template 
+            </a>
+          </h2>
+        </div>
+      </div>
     </div>
   );
 };

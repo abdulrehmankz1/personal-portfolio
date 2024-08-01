@@ -75,6 +75,20 @@ const App = () => {
       '/assets/images/learning-skills-9.png',
       '/assets/images/learning-skills-10.png',
     ],
+    boldo: [
+      '/assets/images/boldo-1.png',
+      '/assets/images/boldo-2.png',
+      '/assets/images/boldo-3.png',
+      '/assets/images/boldo-4.png',
+      '/assets/images/boldo-5.png',
+      '/assets/images/boldo-6.png',
+      '/assets/images/boldo-7.png',
+      '/assets/images/boldo-8.png',
+      '/assets/images/boldo-9.png',
+      '/assets/images/boldo-10.png',
+      '/assets/images/boldo-11.png',
+
+    ],
   };
 
   return (
