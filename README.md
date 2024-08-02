@@ -25,13 +25,13 @@ This is a portfolio project showcasing my work and skills. It is built using Rea
 1. Clone the repository:
 
 ```bash
- git clone https://github.com/yourusername/your-portfolio-repo.git
+ git clone https://github.com/abdulrehmankz1/personal-portfolio.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
- cd your-portfolio-repo
+cd personal-portfolio
 ```
 
 3. Install the dependencies:
