@@ -24,68 +24,68 @@ This is a portfolio project showcasing my work and skills. It is built using Rea
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/your-portfolio-repo.git
-   ```
-
+```bash
+ git clone https://github.com/yourusername/your-portfolio-repo.git
+```
 
 2. Navigate to the project directory:
 
-  ```bash
-   cd your-portfolio-repo
-  ``` 
+```bash
+ cd your-portfolio-repo
+```
 
 3. Install the dependencies:
 
-  ```bash
+```bash
 yarn install
-  ``` 
+```
+
 or
 
-  ```bash
+```bash
 npm install
-  ``` 
+```
 
 4. Start the development server:
 
-  ```bash
+```bash
 yarn start
-  ``` 
+```
 
-  or 
+or
 
-  ```bash
+```bash
 npm start
-  ``` 
-  Open http://localhost:3000 with your browser to see the result.
+```
 
-  ## Usage
+Open http://localhost:3000 with your browser to see the result.
 
-  -  **Home Page**: Displays all content in a single page layout with the following sections:
- - **MenuBar**
- - **Sidebar**
- - **IntroSection**
- - **AboutSection**
- - **ResumeSection**
- - **ServicesSection**
- - **SkillsSection**
- - **PortfolioSection**
- - **ContactSection**
- - **SimpleSlider**
+## Usage
 
- ## AOS Configuration
+- **Home Page**: Displays all content in a single page layout with the following sections:
+- **MenuBar**
+- **Sidebar**
+- **IntroSection**
+- **AboutSection**
+- **ResumeSection**
+- **ServicesSection**
+- **SkillsSection**
+- **PortfolioSection**
+- **ContactSection**
+- **SimpleSlider**
+
+## AOS Configuration
 
 AOS is configured in the `src/App.js` file. You can customize animations and settings as needed.
 
 ## License
+
 This project is licensed under the MIT [LICENSE](./LICENSE). See the LICENSE file for details.
 
 ## Contact
+
 For any questions or feedback, please contact me at:
 
 - **Email**: [khanzadaabdulrehman1@gmail.com](mailto:khanzadaabdulrehman1@gmail.com)
 - **LinkedIn**: [Click Here](https://www.linkedin.com/in/abdul-rehman-khanzada-661757237/)
 - **GitHub**: [Click Here](https://github.com/abdulrehmankz1)
-
-
-     
